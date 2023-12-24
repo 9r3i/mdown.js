@@ -1,0 +1,35 @@
+<div class="site-wrapper">
+
+<div class="site-header-bg"></div>
+<div class="site-header">
+  <div class="site-title" data-text="{{_GLOBAL.site.name}}"></div>
+  <div class="site-description" data-text="{{_GLOBAL.site.description}}"></div>
+</div>
+<div class="site-main">
+<div class="site-menu"><a href="{{_BLOG.route.baseurl}}">Home</a><a href="?recent">Recent</a><a href="?search">Search</a><a href="?admin">{{_ENV.isLogin()?'Admin':'Login'}}</a></div>
+<div class="site-body" id="site-body">
+<div class="post-detail">{{_ENV.detail()}}</div>
+<h3 class="post-title">{{_ENV.title()}}</h3>
+<div class="post-content markdown-body">{{_ENV.content()}}</div>
+</div>
+<div class="site-separator">------------------------------------------------------------------------------------------------------------------------------------------</div>
+<div class="site-code">
+<pre><code class="language-js">
+/* loaded url query */
+const query={{_ENV.query()}}
+/* loaded files */
+const files={{_ENV.print(_BLOG.virtual.list(),5)}}
+/**
+ * push the "Reload" button below to reload all files
+ * and push the orange button to change language to {{_GLOBAL.langGet()=='en'?'Indonesia':'English'}}
+ */
+
+</code></pre>
+</div>
+<div class="site-menu"><a id="site-reload" href="?reload">Reload</a><a id="site-lang" href="?lang">{{_GLOBAL.langGet()=='en'?'Indonesia':'English'}}</a></div>
+</div>
+<div class="site-footer">
+  <div class="site-copyright"></div>
+</div>
+
+</div>

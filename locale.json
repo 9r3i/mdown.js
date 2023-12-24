@@ -1,0 +1,30 @@
+{
+  "en":{
+    "__language__":"English",
+    "__langID__":"en_US"
+  },
+  "id":{
+    "__language__":"Indonesia",
+    "__langID__":"id_ID",
+    "the sly eagle doesn't kill at whim":"elang yang lihai tidak membunuh begitu saja",
+    "":"",
+    "Original post at":"Postingan asli pada",
+    "Published at":"Dipublikasikan pada",
+    "Authored by":"Ditulis oleh",
+    "Powered by":"Diberdayakan oleh",
+    "Admin Page":"Halaman Belakang",
+    "Private Token":"Token Pribadi",
+    "Recent Posts":"Postingan Terkini",
+    "":"",
+    "posts":"postingan",
+    "Search...":"Cari...",
+    "Connect":"Hubungkan",
+    "Total":"Jumlah",
+    "Reload":"Muat Ulang",
+    "Login":"Masuk",
+    "Search":"Cari",
+    "Recent":"Terkini",
+    "Home":"Beranda",
+    "":""
+  }
+}
