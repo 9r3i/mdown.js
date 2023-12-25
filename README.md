@@ -8,8 +8,19 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-orange.svg)](https://paypal.me/9r3i)
 
 
-# About mdown.js
+# About
 mdown.js is a theme for website and blog, use github releases as database, and turn the mark down content into html output.
+
+## Features
+* Using github public releases database api, so its free database.
+* Input as `md` mark-down, output as `html` hypertext.
+* Code highlight using `highlightjs`
+* Posting tags as blog does.
+* It's only put in one file `index.html` everything here.
+* Store library on browser storage using `virtual.js`, so the page will be loaded faster, and feels like local page.
+* Silent database update in background process.
+* Can be customized, templates and styles remain open-source.
+* 
 
 
 # Requirements
