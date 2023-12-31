@@ -3,7 +3,7 @@
  * requires: _GLOBAL and _BLOG object
  */
 ;function PlainHelper(){
-this.version='1.1.0';
+this.version='1.1.1';
 window._PlainHelper=this;
 this.assetsList=function(assets){
   if(Object.keys(assets).length<1){
@@ -58,7 +58,7 @@ for(let post of Object.values(data)){
     id:post.id,
     title:post.name,
     content:post.body,
-    time:post.created_at,
+    time:post.published_at,
     draft:post.draft,
     tag:post.tag_name,
     author:post.author.login,
